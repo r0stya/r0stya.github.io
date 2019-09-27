@@ -11,12 +11,13 @@
    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
    <link rel="stylesheet" href="css/animate.css">
    <link rel="stylesheet" href="css/style.css">
+   <title>Mobile Games</title>
 
 <body>
 <header>
    <img src="img/bg.png" alt="bg" class="bg">
    <div class="brand">
-      <a href="#" class="animated fadeInDown">psd.in.ua</a>
+      <a href="#" class="wow fadeInDown">psd.in.ua</a>
       <p class="animated fadeInUp ">Mobile Games</p>
    </div>
    <div class="headslider">
@@ -36,7 +37,7 @@
          <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
       </div>
    </div>
-   <a href="#footer" class="btn2down border animated fadeInDownBig"">
+   <a href="#btn" class="btn2down border animated fadeInDownBig"">
       <img src="img/btn2down1.png" alt="arrows" class="img-fluid">
       <img src="img/btn2down2.png" alt="arrows">
    </a>
@@ -44,16 +45,16 @@
 <article>
    <div class="container">
       <div class="row companies">
-         <div class="companies__items ">
+         <div class="companies__items wow fadeIn" data-wow-offset="200">
             <img src="img/playmarket.png" alt="playmarket">
          </div>
-         <div class="companies__items">
+         <div class="companies__items wow fadeIn" data-wow-offset="200">
             <img src="img/appstore.png" alt="appstore">
          </div>
-         <div class="companies__items">
+         <div class="companies__items wow fadeIn" data-wow-offset="200">
             <img src="img/amazon.png" alt="amazon">
          </div>
-         <div class="companies__items">
+         <div class="companies__items wow fadeIn" data-wow-offset="200">
             <img src="img/steam.png" alt="steam">
          </div>
       </div>
@@ -66,7 +67,7 @@
    </div>
    <div class="container">
       <div class="row pips">
-         <img src="img/pips.png" alt="pips" class="col-lg-6 img-fluid animated fadeInLeft lazyload" data-src="img/pips.png">
+         <img src="img/pips.png" alt="pips" class="col-lg-6 img-fluid wow fadeInLeft " data-wow-offset="200" >
          <p class="col-lg-6">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure 
             of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty
              through weakness of will, which is the same as saying through shrinking from toil and pain. 
@@ -81,7 +82,7 @@
       </div>
     </div>
     <div class="slider">
-         <div class="mainslider">
+         <div class="mainslider wow fadeInRight" data-wow-offset="200" >
                <div class="mainslider__items"><img src="img/slids.png" alt="slides"></div>
                <div class="mainslider__items"><img src="img/slids.png" alt="slides"></div>
                <div class="mainslider__items"><img src="img/slids.png" alt="slides"></div>
@@ -98,31 +99,31 @@
          <p>Download Game</p>
       </div>
     </div>
-    <div class="container">
+    <div class="container " id="btn">
       <div class="row companies__">
-         <div class="companies__items">
+         <div class="companies__items wow fadeIn" data-wow-offset="200">
             <img src="img/playmarket.png" alt="playmarket"class='img-fluid'>
          </div>
-         <div class="companies__items">
+         <div class="companies__items wow fadeIn">
             <img src="img/appstore.png" alt="appstore" class='img-fluid'>>
          </div>
-         <div class="companies__items">
+         <div class="companies__items wow fadeIn">
             <img src="img/amazon.png" alt="amazon" class='img-fluid'>>
          </div>
-         <div class="companies__items">
+         <div class="companies__items wow fadeIn">
             <img src="img/steam.png" alt="steam" class='img-fluid'>>
          </div>
       </div>
    </div>
-   <div class="container">
-      <div class="row news">
+   <div class="container wow fadeInUp" data-wow-offset="200">
+      <div class="row news " >
          <h1>newslist</h1>
          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo iusto laudantium tenetur sint suscipit magni, dolore eos dolores. Aut, labore odit? Earum vel dicta voluptatibus!</p>
       </div>
    </div>
-   <div class="container">
+   <div class="container wow fadeInUp" data-wow-offset="200">
       <div class="row subform ">
-         <form action="email" class="form">
+         <form action="email" class="form" >
             <input type="email" id="email" class="form-control form"  aria-describedby="emailHelp" placeholder="Enter Your Email">
             <button id="submit" class="btn">subscribe now</button>
          </form>
@@ -163,6 +164,7 @@
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>   
+   <script type="text/javascript" src="js/wow.min.js"></script>
    <script src="js/script.js"></script>
 </body>
 </html>
