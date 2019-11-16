@@ -1,1 +1,1 @@
-new Vue({el:"#head",data:{showMenu:!0},methods:{}});
+$(document).ready(function(){$(".navi__hiden__btn").click(function(){$(".navi_hiden").toggleClass("toggleClick")})});
