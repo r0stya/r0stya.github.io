@@ -1,1 +1,0 @@
-$(document).ready(function(){$(".hiden").fadeOut(1e-4),$(".navi__hiden__btn").on("click",function(){$(".hiden").fadeToggle(1e3)})});
