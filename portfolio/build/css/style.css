@@ -177,11 +177,18 @@ html {
   html {
     font-size: 5px; }
   .sites__items {
-    height: 107px;
-    width: 191px; }
+    height: 148px;
+    width: 263px; }
   .sites__items img {
-    height: 107px;
-    width: 191px; } }
+    height: 148px;
+    width: 263px; }
+  .social p {
+    font-size: 2.5rem; }
+  .socialNetworks__icons img {
+    width: 2.5rem;
+    height: 2.5rem; }
+  .socialNetworks {
+    width: 10rem; } }
 
 @media (max-width: 400px) {
   html {
