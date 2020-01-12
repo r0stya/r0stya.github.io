@@ -430,7 +430,7 @@ footer {
   background-image: url("../../img/bg-footer.png");
   background-size: cover; }
 
-@media (max-width: 992px) {
+@media (max-width: 1204px) {
   html {
     font-size: 14px; }
   .mainExpert {
